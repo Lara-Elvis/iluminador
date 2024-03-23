@@ -4,7 +4,6 @@
 
 body{
     background-color: #111;
-    display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
@@ -12,8 +11,19 @@ body{
     margin: 0;
 }
 
+h1{
+    margin-left: 33%;
+    color: #ffffff;
+    width: 440px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-shadow: 4px 4px 4px #090;
+}
+
+
 .container{
     display: flex;
+    margin-left: 34%;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -30,4 +40,40 @@ body{
 
 .square:hover{
     transition-duration: 0s;
+}
+
+footer{
+    display:flex;
+    margin-top: 30px;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    font-family: "Roboto", Sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+.linkedin{
+    order: 1;
+    margin-right: 8px;
+}
+
+p{
+    order: 2;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #090;
+}
+
+.github{
+    order: 3;
+    margin-left: 8px;
+    background: #ffffff;
+}
+
+.imagenes-footer{
+    width: 30px;
+    margin-top: 1px;
 }
